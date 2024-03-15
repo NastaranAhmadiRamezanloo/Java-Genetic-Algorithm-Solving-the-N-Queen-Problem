@@ -12,7 +12,7 @@ public class NQueenGrid {
     public int numberOfQueenGrid;
     public int gridSizeValue;
     public NQueenGrid(List<Integer> solutionList, int numberOfQueen, int gridSize) {
-        publicList = solutionList;
+        publicList = solutionList; 
         numberOfQueenGrid = numberOfQueen;
         gridSizeValue = gridSize;
         EventQueue.invokeLater(new Runnable() {
